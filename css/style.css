@@ -111,6 +111,9 @@ body{
     display: none;
     align-items: center;
 }
+#close{
+    display: none;
+}
 
 /* Home Page */
 
@@ -485,6 +488,9 @@ footer .copyright{
     #navbar li{
         margin-bottom: 25px;
     }
+    #navbar #lg-bag{
+        display: none;
+    }
     #mobile{
         display: flex;
         align-items: center;
@@ -493,5 +499,15 @@ footer .copyright{
        color: #1a1a1a;
        font-size: 24px;
        padding-left: 20px;
+       cursor: pointer;
+    }
+    #close{
+        position: absolute;
+        top: 30px ;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+        display: flex;
+        text-decoration: initial;
     }
 }
