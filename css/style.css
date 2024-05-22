@@ -700,5 +700,15 @@ footer .copyright{
     #newsletter .form {
         width: 100%;
     }
+    /* single products */
+    #prodetails {
+        flex-direction: column;
+    }
+    #prodetails .single-pro-image {
+        width: 100%;
+    }
+    #prodetails .single-pro-details {
+        width: 100%;
+    }
    
 }
